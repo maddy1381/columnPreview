@@ -1,0 +1,110 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.card-one{
+     width: 300px;
+     height: 500px;
+     background-color: hsl(31, 77%, 52%);
+     display: flex;
+     justify-content: center;
+     top: 15vh;
+}
+
+.image{
+     height: 40px;
+     width: 60px;
+     margin-top: 65px;
+     margin-left: 45px;
+}
+
+/* .container{
+     display: flex;
+     justify-content:stretch;
+     align-items: center;
+} */
+
+.main{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.card-title{
+     color: hsl(0, 0%, 95%);
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     padding-left: 20px;
+}
+
+.card-text{
+     color: hsla(0, 0%, 100%, 0.75);
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     width: 200px;
+     padding-left: 20px;
+     height: 30px;
+}
+
+
+.card-two{
+     width: 300px;
+     height: 500px;
+     background-color: hsl(184, 100%, 22%);
+     display: flex;
+     justify-content: center;
+     top: 15vh;
+}
+
+.card-three{
+     width: 300px;
+     height: 500px;
+     background-color: hsl(179, 100%, 13%);
+     display: flex;
+     justify-content: center;
+     top: 15vh;
+}
+
+.btn{
+     background-color: white;
+     /* color: hsl(31, 77%, 52%); */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 70px;
+     margin-top: 150px;
+     transform: translateX(-30px);
+     padding: 10px 15px;
+     border-radius: 30px;
+     
+}
+
+.btn:hover{
+     color: white;
+     background-color: transparent;
+     border: 2px solid white;
+}
+.btn-one{
+     color: hsl(31, 77%, 52%);
+}
+
+.btn-two{
+     color: hsl(184, 100%, 22%);
+}
+
+.btn-three{
+     color: hsl(179, 100%, 13%);
+}
+
+.text{
+     line-height: normal;
+}
+
+
+.attribution{
+     color: darkgoldenrod;
+     margin: 150px;
+     font-size: 2rem;
+}
